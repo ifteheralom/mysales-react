@@ -1,0 +1,43 @@
+{
+  "name": "mysales-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "dev-server": "webpack-dev-server"
+  },
+  "author": "ifteheralom",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.9-1",
+    "css-loader": "^3.3.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "live-server": "^1.2.1",
+    "mongoose": "^5.8.1",
+    "multer": "^1.4.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-redux": "5.0.5",
+    "react-router-dom": "4.2.2",
+    "redux": "3.7.2",
+    "style-loader": "^1.0.1",
+    "validator": "^12.1.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  }
+}
